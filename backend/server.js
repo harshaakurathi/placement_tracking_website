@@ -38,8 +38,8 @@ app.use('/coordinator-api', coordinatorApp);
 // app.use("/placement-api", placementApp);
 app.use("/student-api", studentApp);
 
-app.get("/",(req,res){
-    res.send("Hello");
+app.get('/', (req, res) => {
+    res.send("GET Request Called")
 })
 
 const port = 4000;
