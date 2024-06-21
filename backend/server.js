@@ -38,5 +38,9 @@ app.use('/coordinator-api', coordinatorApp);
 // app.use("/placement-api", placementApp);
 app.use("/student-api", studentApp);
 
+app.get("/",(req,res){
+    res.send("Hello");
+})
+
 const port = 4000;
 app.listen(port, () => console.log(`Server is running at port ${port}`));
