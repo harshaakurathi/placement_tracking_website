@@ -1,0 +1,25 @@
+.news-container {
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid green;
+    background-color: yellow;
+  }
+  
+  .news-scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  
+  .news-item-container {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .news-item {
+    /* Style your news items here */
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    color: #333;
+  }
+  

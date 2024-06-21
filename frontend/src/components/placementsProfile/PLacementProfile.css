@@ -1,0 +1,88 @@
+/* PlacementProfile.css */
+
+.placement-profile-container {
+  padding: 20px;
+}
+
+.placement-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.placement-table th, .placement-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.placement-table th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.company-info {
+  margin-bottom: 5px;
+}
+
+.status-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block; /* Ensure buttons are displayed inline */
+}
+
+.status-button.accepted {
+  background-color: green;
+  color: white;
+}
+
+.status-button.rejected {
+  background-color: red;
+  color: white;
+}
+
+.status-button.pending {
+  background-color: grey;
+  color: white;
+}
+
+.status-button.pending.innerbutton {
+  background-color: grey;
+  color: white;
+}
+
+.status-button + .status-button {
+  margin-top: 5px;
+}
+
+/* Add button styling */
+.add-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+/* PlacementProfile.css */
+
+/* Add styles for the search box */
+.search-box-container {
+  margin-bottom: 20px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Remaining styles remain the same */

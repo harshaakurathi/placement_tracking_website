@@ -1,0 +1,47 @@
+.student-profile-container {
+    padding: 20px;
+  }
+  
+  .companies-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .companies-table th, .companies-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .companies-table th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  .companies-table th span {
+    margin-right: 5px;
+  }
+  
+  .companies-table th span:last-child {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .companies-table th span:last-child:hover {
+    color: blue;
+  }
+  
+  .companies-table th span:last-child.active {
+    color: black;
+  }
+  
+  .companies-table th span:last-child.active::after {
+    content: attr(data-dir);
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .companies-table th span:last-child:hover::after {
+    content: '';
+  }
+  
