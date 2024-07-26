@@ -9,11 +9,7 @@ const cors = require('cors');
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '../frontend/build')));
 
-app.use(cors({
-    origin: ["https://deploy-mern-lwhq.versal.app"],
-    methods: ["POST", "GET", "PUT"],
-    credentials: true
-}));
+
 
 // MongoDB Atlas connection string
 const url = 'mongodb+srv://Placements:12345@cluster0.nfezvjl.mongodb.net/placements?retryWrites=true&w=majority';
